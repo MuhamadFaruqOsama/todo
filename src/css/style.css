@@ -1,0 +1,132 @@
+/* pallete */
+/* https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff */
+body {
+  font-family: "Inter", sans-serif;
+}
+.bg-primary-custom {
+  background-color: #a2d2ff;
+}
+.bg-primary-custom-gradient {
+  background: linear-gradient(to bottom, #a2d2ff, #bde0fe);
+}
+.nav-link {
+  cursor: pointer;
+}
+.hover-up,
+.hover-zoom {
+  transition: 0.3s ease-in-out;
+}
+.hover-up:hover {
+  transform: translateY(-5%);
+}
+.hover-zoom:hover {
+  transform: scale(1.2);
+  transform: rotate(-20deg);
+}
+.bg-ungu {
+  background-color: #cdb4db;
+}
+.bg-biru-muda {
+  background-color: #a2d2ff;
+}
+.bg-pink {
+  background-color: #ffafcc;
+}
+.btn-gradient {
+  background: linear-gradient(to right, #ffafcc, #a2d2ff);
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  transform: scale(1.1);
+}
+/* index.php */
+section#home {
+  background-image: url("../img/bg-note.jpg");
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20vh 0;
+}
+section#home .desc-title {
+  font-size: 7em;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 19vh;
+  text-align: start;
+}
+section#home .desc-title span {
+  padding: 5px 20px;
+}
+section#home .desc-title span {
+  background-color: #ffafcc;
+}
+section#home .desc-title span.dua {
+  background-color: #a2d2ff;
+}
+section#home .desc-title span.tiga {
+  background-color: #cdb4db;
+}
+section#kenapa-kita {
+  padding: 15vh 0;
+}
+section#kenapa-kita .desc-title {
+  font-size: 4em;
+  color: #ffafcc;
+}
+section#kenapa-kita .desc-title span {
+  color: #fff;
+  padding: 20px 10px;
+  background: #a2d2ff;
+}
+section#kenapa-kita .desc {
+  font-size: 1.2em;
+  margin-top: 7vh;
+}
+section#images-slider {
+  padding: 0 0 17vh 0;
+}
+section#images-slider .carousel-item {
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+  border-radius: 15px;
+  width: 100%;
+  max-height: 40vh;
+}
+section#images-slider .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-height: 40vh;
+}
+section#features {
+  padding: 0 0 17vh 0;
+}
+section#features .desc-title {
+  font-size: 4em;
+  color: #ffafcc;
+  line-height: 10vh;
+}
+section#features .row .col-md-4 .card {
+  width: 100%;
+  padding: 2vh 0;
+  margin-top: 15vh;
+  border-radius: 15px;
+  background-color: #fff;
+  border: none;
+  box-shadow: inset 0px 0px 15px rgb(224, 224, 224);
+}
+section#features .row .col-md-4 .card .card-icon {
+  font-size: 6em;
+}
+section#features .row .col-md-4 .card .card-desc {
+  font-size: 1.5em;
+}
+section#features .row .card .card-icon,
+section#features .row .card .card-desc {
+  background-image: linear-gradient(to right, #ffafcc, #a2d2ff);
+  color: transparent;
+  -webkit-background-clip: text; /* Untuk browser berbasis WebKit, seperti Chrome dan Safari */
+  background-clip: text;
+}
